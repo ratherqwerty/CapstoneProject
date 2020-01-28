@@ -36,8 +36,8 @@ namespace Course_Project_Idea.Controllers
         public IActionResult Signup()
         {
             return View();
-        }      
-
+        }
+         
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
